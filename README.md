@@ -1,4 +1,4 @@
-# concurrency-patterns
+# Go Concurrency Patterns
 
 Examples taken from Rob Pike's talk about concurrency patterns.
 
@@ -50,14 +50,14 @@ Newsqueak-Alef-Limbo   using Channels
 
 ### Other Patterns
 
-*Chatroulette Toy:*  
+**Chatroulette Toy:**  
 http://tinyurl.com/gochatroulette
 
-*Load Balancer:*  
+**Load Balancer:**  
 http://tinyurl.com/goloadbalancer
 
-*Concurrent Prime Sieve:*  
+**Concurrent Prime Sieve:**  
 http://tinyurl.com/gosieve
 
-*Concurrent Power Series (by Mcllroy)*  
+**Concurrent Power Series (by Mcllroy)**  
 http://tinyurl.com/gopowerseries
