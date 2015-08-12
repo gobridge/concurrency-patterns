@@ -1,5 +1,5 @@
 /*
-Select is control structure that is unqiue to concurrency.
+Select is a control structure that is unique to concurrency.
 
 The reason channels and Goroutines are built into the language.
 
@@ -38,7 +38,7 @@ func main() {
 		fmt.Println(<-c) // Display any message received on the FanIn channel.
 	}
 
-	fmt.Println("Your're boring: I'm leaving.")
+	fmt.Println("You're boring: I'm leaving.")
 }
 
 func fanIn(input1, input2 <-chan string) <-chan string {

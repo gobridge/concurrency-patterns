@@ -8,10 +8,10 @@ https://www.youtube.com/watch?v=f6kdp27TYZs
 
 ### Notes from Rob's talk
 
-"The composition of independtly executing computations"
+"The composition of independently executing computations"
 -- Rob Pike
 
-Concurrency not paralllelism.
+Concurrency not parallelism.
 On a single core, you can't have parallelism.
 
 #### Concurrency
@@ -28,7 +28,7 @@ Hoare's CSP Paper in 1978
 Newsqueak-Alef-Limbo   using Channels
 
 #### Goroutines
-- Indenpendtly executing function
+- Independently executing function
 - Has its own stack which grows and shrinks
 - Very Cheap, could have thousands or more
 - Not a thread

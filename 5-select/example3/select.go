@@ -23,7 +23,7 @@ func main() {
 		case s := <-c:
 			fmt.Println(s)
 		case <-timeout:
-			fmt.Println("Your're too slow.")
+			fmt.Println("You're too slow.")
 			return
 		}
 	}
