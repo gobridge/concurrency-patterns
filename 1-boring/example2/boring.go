@@ -16,7 +16,7 @@ func main() {
 	// Use a goroutine.
 	go boring("boring!")
 
-	// Program will terminate immeditately.
+	// Program will terminate immediately.
 }
 
 func boring(msg string) {

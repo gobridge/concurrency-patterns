@@ -28,7 +28,7 @@ func main() {
 		fmt.Println(<-c) // Display any message received on the FanIn channel.
 	}
 
-	fmt.Println("Your're boring: I'm leaving.")
+	fmt.Println("You're boring: I'm leaving.")
 }
 
 func fanIn(input1, input2 <-chan string) <-chan string {

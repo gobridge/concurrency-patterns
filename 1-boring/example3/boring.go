@@ -20,9 +20,9 @@ func main() {
 
 	fmt.Println("I'm listening.")
 	time.Sleep(2 * time.Second)
-	fmt.Println("Your're boring: I'm leaving.")
+	fmt.Println("You're boring: I'm leaving.")
 
-	// Program will terminate immeditately.
+	// Program will terminate immediately.
 }
 
 func boring(msg string) {

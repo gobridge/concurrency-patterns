@@ -14,7 +14,7 @@ func main() {
 		fmt.Printf("You say: %q\n", <-c)
 	}
 
-	fmt.Println("Your're boring: I'm leaving.")
+	fmt.Println("You're boring: I'm leaving.")
 }
 
 func boring(msg string) <-chan string { // Returns receive-only (<-) channel of strings.

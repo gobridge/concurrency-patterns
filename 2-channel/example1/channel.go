@@ -30,7 +30,7 @@ func main() {
 		fmt.Printf("You say: %q\n", <-c) // Receive expression is just a value.
 	}
 
-	fmt.Println("Your're boring: I'm leaving.")
+	fmt.Println("You're boring: I'm leaving.")
 }
 
 func boring(msg string, c chan string) {

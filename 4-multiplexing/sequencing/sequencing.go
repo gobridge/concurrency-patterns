@@ -42,7 +42,7 @@ func main() {
 		msg2.wait <- true // Ann can run again
 	}
 
-	fmt.Println("Your're boring: I'm leaving.")
+	fmt.Println("You're boring: I'm leaving.")
 }
 
 func fanIn(input1, input2 <-chan Message) <-chan Message {

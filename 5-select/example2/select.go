@@ -4,7 +4,7 @@ Timeout Using Select
 The time.After function returns a channel that blocks for the specified duration.
 After the interval, the channel delivers the current time, once.
 
-The select is giving the boring routine 800ms to repsond. This will be an endless
+The select is giving the boring routine 800ms to respond. This will be an endless
 loop if boring can perform its work under 800ms every time.
 
 */
@@ -24,7 +24,7 @@ func main() {
 		case s := <-c:
 			fmt.Println(s)
 		case <-time.After(800 * time.Millisecond): // This is reset on every iteration.
-			fmt.Println("Your're too slow.")
+			fmt.Println("You're too slow.")
 			return
 		}
 	}
