@@ -33,10 +33,10 @@ func main() {
 		fakeSearch("replica 1"),
 		fakeSearch("replica 2"))
 
-	elasped := time.Since(start)
+	elapsed := time.Since(start)
 
 	fmt.Println(result)
-	fmt.Println(elasped)
+	fmt.Println(elapsed)
 }
 
 func fakeSearch(kind string) search {
