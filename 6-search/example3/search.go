@@ -33,10 +33,10 @@ func main() {
 
 	start := time.Now()
 	results := google("golang")
-	elasped := time.Since(start)
+	elapsed := time.Since(start)
 
 	fmt.Println(results)
-	fmt.Println(elasped)
+	fmt.Println(elapsed)
 }
 
 func fakeSearch(kind string) search {
